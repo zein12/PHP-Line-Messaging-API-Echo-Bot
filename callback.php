@@ -2,10 +2,10 @@
 
 	/* 輸入申請的Line Developers 資料  */
 	$channel_id = "1497601714";
-	$channel_secret = "{Channel Secret}";
-	$channel_access_token = "{Channel Access Token}";
+	$channel_secret = " a6b4b1a80d9f25eb0a719fc92cef7d86 ";
+	$channel_access_token = "3/cEBpOR0mjAMUtnHKrSrx3N6FnMVNPYfXBIwMO6HNGaljxuxTxZz2fGrmZYFwqfV3dvAWMa7FEGrmOONfbZ7or1wxYgpjbtFMS0Mkk+RftjvYSrUpThxAHGiivf2M662z2zM5P8BSKby0dJiBG3GQdB04t89/1O/w1cDnyilFU=";
 
-	$myURL = "https://Your Domain/update/"
+	$myURL = "https://radiant-thicket-36415.herokuapp.com/"
 
 
 	//  當有人發送訊息給bot時 我們會收到的json
