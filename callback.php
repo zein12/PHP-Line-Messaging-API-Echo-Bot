@@ -79,12 +79,12 @@
 		switch($content_type) {
 		
 			case "text" :
-				$content_type = "文字訊息";
+				$content_type = "pesan text";
 				$data = ["to" => $from, "messages" => array(["type" => "text", "text" => $message])];
 				break;
 				
 			case "image" :
-				$content_type = "圖片訊息";
+				$content_type = "pesan gambar";
 				$message = getObjContent("jpeg");   // 讀取圖片內容
 				$data = ["to" => $from, "messages" => array(["type" => "image", "originalContentUrl" => $message, "previewImageUrl" => $message])];
 				break;
