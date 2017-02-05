@@ -1,7 +1,7 @@
 <?php
 
 	/* 輸入申請的Line Developers 資料  */
-	$channel_id = "{Channel ID}";
+	$channel_id = "1497601714";
 	$channel_secret = "{Channel Secret}";
 	$channel_access_token = "{Channel Access Token}";
 
